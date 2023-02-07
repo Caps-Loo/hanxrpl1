@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="bahan/banteng-removebg-preview.png" class="logo">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Party</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p id="ketua">Party Chairman</p>
+                <h1>Hi, I'm <span>Megawati</span>  <br>From Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="bahan/card.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nam consequatur eveniet quas? Modi, doloremque voluptate? Numquam fuga cumque, sequi quas tenetur repellendus velit nisi non aliquid est quis dignissimos architecto quo repudiandae corporis, officiis assumenda aperiam unde quod aliquam a fugiat totam! Iure, laboriosam veniam incidunt perspiciatis ipsam impedit.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('gelar')">Gelar</p>
+                        <p class="tab-links" onclick="opentab('karir')">Karir</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="gelar">
+                        <ul>
+                            <li><span>Doktor Honoris Causa</span> dari UNP</li>
+                            <li><span>Doktor Honoris Causa</span> dari UNPAD</li>
+                            <li><span>Doktor Honoris Causa</span> dari Waseda Tokyo</li>
+                            <li><span>Doktor Honoris Causa</span> dari University Soka Tokyo</li>
+                            <li><span>Doktor Honoris Causa</span> dari Fujian Normal University</li>
+                            <li><span>Doktor Honoris Causa</span> dari Mokpo National University</li>
+                            <li><span>Doktor Honoris Causa</span> dari Institut Pemerintahan Dalam Negeri</li>
+                            <li><span>Doktor Honoris Causa</span> dari Korea Maritime and Ocean University</li>
+                            <li><span>Doktor Honoris Causa</span> dari Moscow State Institute Of International Relation</li>
+                            <li><span>Profesor Doktor Honoris Causa</span> dari Seoul Institue Of The Art (SIA) </li>
+                            <li><span>Profesor Doktor Honoris Causa</span> dari Universitas Pertahanan</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="karir">
+                        <ul>
+                            <li><span>Tahun 1987</span> Masuk Partai Demokrasi Indonesia (PDI)</li>
+                            <li><span>Tahun 1987</span> Menjadi Anggota DPR RI</li>
+                            <li><span>Tahun 1993</span> Ketua Umum PDI-P</li>
+                            <li><span>21 Oktober 1999 – 23 Juli 2001</span> Wakil Presiden RI Ke 8</li>
+                            <li><span>23 Juli 2001 – 20 Oktober 2004</span> Presiden RI Ke 5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Jabatan</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Wakil Presiden</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque modi saepe voluptatibus amet eos error rerum magni labore corrupti! Porro amet atque unde, ipsum necessitatibus hic eum aspernatur dolor eaque eius, tenetur facere sunt natus ex iusto facilis enim expedita explicabo provident eveniet numquam distinctio. Repellendus cupiditate esse doloremque corrupti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Presiden</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque modi saepe voluptatibus amet eos error rerum magni labore corrupti! Porro amet atque unde, ipsum necessitatibus hic eum aspernatur dolor eaque eius, tenetur facere sunt natus ex iusto facilis enim expedita explicabo provident eveniet numquam distinctio. Repellendus cupiditate esse doloremque corrupti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Ketua Partai</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque modi saepe voluptatibus amet eos error rerum magni labore corrupti! Porro amet atque unde, ipsum necessitatibus hic eum aspernatur dolor eaque eius, tenetur facere sunt natus ex iusto facilis enim expedita explicabo provident eveniet numquam distinctio. Repellendus cupiditate esse doloremque corrupti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portofolio">
+         <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="bahan/kegiatan.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="bahan/kegiatan.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="bahan/kegiatan.jpg" alt="">
+                </div>
+            </div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+
+    <footer style="text-align: center;">&copy; Copyright 2023 By Nevtik</footer>
+
+</body>
+</html> 
